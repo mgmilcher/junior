@@ -1,8 +1,8 @@
 {
-  "name": "justspamjustin/junior",
+  "name": "mgmilcher/junior",
   "version": "1.0.0",
   "main": "src/javascripts/junior.js",
-  "description": "A front-end framework for building HTML5 mobile apps with a native look and feel.",
+  "description": "A front-end framework for building HTML5 mobile apps with a native look and feel. Modified for Backbone.Marionette",
   "license": "MIT",
   "ignore": [
     "*.iml",
