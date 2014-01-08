@@ -1,6 +1,6 @@
 var Jr = Jr || {};
 (function(Jr){
-  Jr.View = Backbone.View.extend({
+  Jr.View = Marionette.View.extend({
     delegateEvents: function(events) {
       var key, newKey, oldValue;
       this.events = this.events || events;
@@ -14,7 +14,7 @@ var Jr = Jr || {};
           }
         }
       }
-      return Backbone.View.prototype.delegateEvents.call(this, this.events);
+      return Marionette.View.prototype.delegateEvents.call(this, this.events);
     }
   });
 
@@ -101,7 +101,7 @@ var Jr = Jr || {};
     }
   };
 
-  Jr.Router = Backbone.Router.extend({
+  Jr.Router = Marionette.AppRouter.extend({
     renderView: function(view) {
       return Jr.Navigator.renderView($('#app-main'), view);
     }
