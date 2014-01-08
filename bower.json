@@ -1,5 +1,5 @@
 {
-  "name": "mgmilcher/junior",
+  "name": "junior",
   "version": "1.0.0",
   "main": "src/javascripts/junior.js",
   "description": "A front-end framework for building HTML5 mobile apps with a native look and feel. Modified for Backbone.Marionette",
